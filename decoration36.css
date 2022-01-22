@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #f0f8ff ;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=text],input[type=password]
+{
+width: 320px;
+border-radius: 4px;
+height: 5%;
+border: solid 1px #00308F;
+padding: 7px;
+}
+
+input[type=submit]
+{
+    border-radius: 4px;
+    width: auto;
+    height: 5%;
+    cursor: pointer;
+    background-color: #00308F;
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+input[type=submit]:hover
+{
+    background-color: #13274F;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #00308F;
+    border-radius: 4px;
+    height: 5%;
+    padding: 7px;
+}
+a:hover
+{
+    background-color: #13274F;
+}
+
+label
+{
+    width: 200px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: bold;
+    color: #00308F;
+}
+
+
+select
+{
+    width: 320px;
+border-radius: 4px;
+height: 5%;
+border: solid 1px #00308F;
+padding: 7px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+td
+{
+    text-align: left;
+}
+th
+{
+    text-align: center;
+}
+
+tr:hover 
+{
+    background-color: #00308F;
+    color: white;
+}
+
+.decon
+{
+    float: right;
+    width: auto;
+}
+
+h3,h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: #00308F;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+
+@media (max-width: 600px)
+{
+    body
+    {
+        margin: auto;
+    }
+    th, td {
+        padding: 5px;
+    }
+    .doc
+    {
+        width: auto;
+    }
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: #2F3150;
+    padding: 10px;
+    text-align: center;
+}
+
+#right{
+    background-color: rgba(47, 49, 80, 0.3)    ;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+#right img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.log{
+    padding: 10px ;
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.button{
+    padding: 10px  ;
+    width: 60%;
+    border-radius: 6px;
+    background-color: #00308F;
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+.button1{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #00308F;
+    color: #FFFFFF;
+    margin-left: 740px;
+}
+
+.button1:hover {
+    background-color: #13274F;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #13274F;
+    cursor: pointer;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
+
+a
+{
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: #00308F;
+    border-radius: 4px;
+    height: 3%;
+    padding: 7px;
+    font-size: 1.2em;
+}
+a:hover
+{
+    background-color: #13274F;
+}
+
+
+
+@media (max-width: 600px)
+{
+    #right
+    {
+        display: none;
+    }
+}
